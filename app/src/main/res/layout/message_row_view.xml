@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/video_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/video_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ProgressBar android:id="@id/video_load_image" android:layout_width="48.0dip" android:layout_height="48.0dip" android:indeterminate="true" android:layout_centerInParent="true" style="?android:attr/progressBarStyleLarge" />
+        <co.vine.android.player.SdkVideoView android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/message_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/user_image_right" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <co.vine.android.widget.TypefacesTextView android:textColor="@color/solid_white" android:gravity="left|center" android:id="@id/message" android:padding="@dimen/spacing_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip" android:layout_toLeftOf="@id/user_image_right" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="profile_followers">
+        <item quantity="other">\"%1$s\" TAKİPÇİ</item>
+        <item quantity="one">\"%1$s\" TAKİPÇİ</item>
+    </plurals>
+    <plurals name="profile_following">
+        <item quantity="other">\"%1$s\" TAKİP EDİLEN</item>
+        <item quantity="one">\"%1$s\" TAKİP EDİLEN</item>
+    </plurals>
+    <plurals name="profile_likes">
+        <item quantity="other">\"%1$s\" BEĞENİ</item>
+        <item quantity="one">\"%1$s\" BEĞENİ</item>
+    </plurals>
+    <plurals name="profile_posts">
+        <item quantity="other">\"%1$s\" GÖNDERİ</item>
+        <item quantity="one">\"%1$s\" GÖNDERİ</item>
+    </plurals>
+    <plurals name="revine_count">
+        <item quantity="other">%1$s revine</item>
+        <item quantity="one">%1$s revine</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="other">%d gün</item>
+        <item quantity="one">1 gün</item>
+    </plurals>
+    <plurals name="time_days_verbose">
+        <item quantity="other">%d gün</item>
+        <item quantity="one">1 gün</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">%d sa</item>
+        <item quantity="one">1 sa</item>
+    </plurals>
+    <plurals name="time_hours_verbose">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">1 saat</item>
+    </plurals>
+    <plurals name="time_mins">
+        <item quantity="other">%d dk</item>
+        <item quantity="one">1 dk</item>
+    </plurals>
+    <plurals name="time_mins_verbose">
+        <item quantity="other">%d dakika</item>
+        <item quantity="one">1 dakika</item>
+    </plurals>
+    <plurals name="time_secs">
+        <item quantity="other">%d sn</item>
+        <item quantity="one">1 sn</item>
+    </plurals>
+    <plurals name="time_secs_verbose">
+        <item quantity="other">%d saniye</item>
+        <item quantity="one">1 saniye</item>
+    </plurals>
+    <plurals name="timeline_compact_comments">
+        <item quantity="other">%1$s yorum</item>
+        <item quantity="one">%1$s yorum</item>
+    </plurals>
+    <plurals name="timeline_compact_likes">
+        <item quantity="other">%1$s beğeni</item>
+        <item quantity="one">%1$s beğeni</item>
+    </plurals>
+    <plurals name="timeline_likes">
+        <item quantity="other">\"%1$s kişi\" bunu beğendi</item>
+        <item quantity="one">\"%1$s\" bunu beğendi</item>
+    </plurals>
+</resources>

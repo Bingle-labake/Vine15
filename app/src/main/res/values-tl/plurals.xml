@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="profile_followers">
+        <item quantity="other">MGA TAGASUNOD NI \"%1$s\"</item>
+        <item quantity="one">TAGASUNOD NI \"%1$s\"</item>
+    </plurals>
+    <plurals name="profile_following">
+        <item quantity="other">\"%1$s\" SINUSUNDAN</item>
+        <item quantity="one">\"%1$s\" SINUSUNDAN</item>
+    </plurals>
+    <plurals name="profile_likes">
+        <item quantity="other">\"%1$s\" MGA GUSTO</item>
+        <item quantity="one">\"%1$s\" GUSTO</item>
+    </plurals>
+    <plurals name="profile_posts">
+        <item quantity="other">\"%1$s\" MGA POST</item>
+        <item quantity="one">\"%1$s\" POST</item>
+    </plurals>
+    <plurals name="revine_count">
+        <item quantity="other">%1$s mga revine</item>
+        <item quantity="one">%1$s revine</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="other">%da</item>
+        <item quantity="one">1a</item>
+    </plurals>
+    <plurals name="time_days_verbose">
+        <item quantity="other">%d araw</item>
+        <item quantity="one">1 araw</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">%do</item>
+        <item quantity="one">1o</item>
+    </plurals>
+    <plurals name="time_hours_verbose">
+        <item quantity="other">%d oras</item>
+        <item quantity="one">1 oras</item>
+    </plurals>
+    <plurals name="time_mins">
+        <item quantity="other">%dm</item>
+        <item quantity="one">1m</item>
+    </plurals>
+    <plurals name="time_mins_verbose">
+        <item quantity="other">%d minuto</item>
+        <item quantity="one">1 minuto</item>
+    </plurals>
+    <plurals name="time_secs">
+        <item quantity="other">%ds</item>
+        <item quantity="one">1s</item>
+    </plurals>
+    <plurals name="time_secs_verbose">
+        <item quantity="other">%d segundo</item>
+        <item quantity="one">1 segundo</item>
+    </plurals>
+    <plurals name="timeline_compact_comments">
+        <item quantity="other">Mga komento ni %1$s</item>
+        <item quantity="one">Komento ni %1$s</item>
+    </plurals>
+    <plurals name="timeline_compact_likes">
+        <item quantity="other">%1$s mga gusto</item>
+        <item quantity="one">Gusto ni %1$s</item>
+    </plurals>
+    <plurals name="timeline_likes">
+        <item quantity="other">Gusto ito ng \"%1$s tao\"</item>
+        <item quantity="one">Gusto ito ni \"%1$s\"</item>
+    </plurals>
+</resources>

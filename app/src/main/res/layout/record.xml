@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<co.vine.android.dragsort.DragSortWidget android:id="@id/thumbnail_list" android:background="@color/solid_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:vine="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/videoViewContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <co.vine.android.player.SdkVideoView android:id="@id/sdkVideoView" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/capture_top_mask" />
+    </RelativeLayout>
+    <ImageView android:id="@id/edit_thumbnail_overlay" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/preview_loading_overlay" android:background="@color/preview_translucent_black" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/preview_load_progress" android:layout_width="48.0dip" android:layout_height="48.0dip" android:indeterminate="true" android:layout_centerInParent="true" style="?android:attr/progressBarStyleLarge" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/play_container" android:background="@*android:color/transparent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/play_button" android:duplicateParentState="true" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/btn_play" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/play_button_clip" android:duplicateParentState="true" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/btn_play_refresh" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <VideoView android:id="@id/cameraView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/focus_indicator" android:visibility="invisible" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/focus_indicator" />
+    <View android:background="@color/solid_black" android:layout_width="fill_parent" android:layout_height="@dimen/capture_top_mask" />
+    <RelativeLayout android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/editorButtons" android:background="@color/solid_black" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/editor_buttons_height" android:layout_alignParentTop="true">
+            <co.vine.android.widget.TypefacesTextView android:textColor="@color/secondary_action_text_color" android:gravity="left|center" android:id="@id/editorCancelButton" android:background="@*android:color/transparent" android:paddingLeft="@dimen/spacing_small" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:textAllCaps="true" style="@style/EditorButtonsText" />
+            <co.vine.android.widget.TypefacesTextView android:gravity="right|center" android:id="@id/editorDoneButton" android:background="@*android:color/transparent" android:paddingRight="@dimen/spacing_small" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/save_caps" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/EditorButtonsText" />
+            <RelativeLayout android:id="@id/trashUndoContainer" android:background="@drawable/editor_buttons_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/editor_buttons_height" android:layout_alignParentTop="true">
+                <Button android:layout_gravity="center" android:id="@id/trashCanButton" android:background="@drawable/btn_edit_trash" android:visibility="invisible" android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <Button android:layout_gravity="center" android:id="@id/undoButton" android:background="@drawable/btn_sessions_undo" android:visibility="invisible" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/top_mask" android:layout_width="fill_parent" android:layout_height="@dimen/capture_top_mask">
+            <co.vine.android.recorder.ProgressView android:id="@id/progress" android:background="@color/bg_capture_progress" android:layout_width="fill_parent" android:layout_height="@dimen/progress_view_height" />
+            <View android:id="@id/progress_overlay" android:layout_width="fill_parent" android:layout_height="@dimen/progress_view_height" />
+            <LinearLayout android:gravity="center" android:id="@id/cancel" android:layout_width="56.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onRecorderBackPressed">
+                <Button android:id="@id/capture_x" android:background="@drawable/btn_capture_x" android:layout_width="@dimen/record_options_button_size" android:layout_height="@dimen/record_options_button_size" android:onClick="onRecorderBackPressed" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@id/finishButton" android:visibility="gone" android:layout_width="56.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <Button android:background="@drawable/btn_capture_arrow" android:layout_width="@dimen/record_options_button_size" android:layout_height="@dimen/record_options_button_size" android:onClick="onFinishPressed" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/bottom_mask" android:background="@color/capture_background" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="horizontal" android:id="@id/recording_options" android:layout_width="fill_parent" android:layout_height="@dimen/record_options_height">
+                <LinearLayout android:id="@id/switchCamera" style="@style/CameraFeatureLayout">
+                    <Button android:background="@drawable/btn_capture_front_facing_camera" android:layout_width="@dimen/record_options_button_size" android:layout_height="@dimen/record_options_button_size" android:onClick="onCameraSwitchPressed" />
+                </LinearLayout>
+                <LinearLayout android:onClick="onGridSwitchPressed" style="@style/CameraFeatureLayout">
+                    <ToggleButton android:id="@id/switchGrid" android:background="@drawable/btn_capture_grid" android:layout_width="@dimen/record_options_button_size" android:layout_height="@dimen/record_options_button_size" android:onClick="onGridSwitchPressed" />
+                </LinearLayout>
+                <LinearLayout android:onClick="onFocusSwitchPressed" style="@style/CameraFeatureLayout">
+                    <Button android:id="@id/switchFocusButton" android:background="@drawable/btn_capture_focus" android:layout_width="@dimen/record_options_button_size" android:layout_height="@dimen/record_options_button_size" android:onClick="onFocusSwitchPressed" />
+                </LinearLayout>
+                <LinearLayout android:onClick="onGhostSwitchPressed" style="@style/CameraFeatureLayout">
+                    <ToggleButton android:id="@id/switchGhost" android:background="@drawable/btn_capture_ghost" android:clickable="true" android:layout_width="@dimen/record_options_button_size" android:layout_height="@dimen/record_options_button_size" android:onClick="onGhostSwitchPressed" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/session" android:onClick="onSessionSwitchPressed" style="@style/CameraFeatureLayout">
+                    <co.vine.android.widget.TypefacesTextView android:textSize="12.0sp" android:textColor="@color/draft_number_text" android:id="@id/drafts_button" android:background="@drawable/btn_sessions_drafts" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:layout_width="@dimen/record_options_button_size" android:layout_height="@dimen/record_options_button_size" android:onClick="onSessionSwitchPressed" style="@style/DraftNumber" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:gravity="left" android:id="@id/sony_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/cam_cap_mode_sample_icn" android:layout_below="@id/recording_options" android:alpha="0.5" />
+        </RelativeLayout>
+        <FrameLayout android:id="@id/sony_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/ghost" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_above="@id/bottom_mask" android:layout_below="@id/top_mask" />
+        <View android:id="@id/grid" android:background="@drawable/capture_grid" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/bottom_mask" android:layout_below="@id/top_mask" />
+    </RelativeLayout>
+    <co.vine.android.dragsort.HorizontalListView android:id="@*android:id/list" android:background="@*android:color/black" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/editor_thumbnail_size" android:layout_marginTop="@dimen/editor_segment_padding" android:layout_marginBottom="@dimen/editor_segment_padding" />
+    <RelativeLayout android:id="@id/no_drafts_overlay" android:background="@color/no_drafts_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/no_drafts_overlay_face" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sadface_overlay" android:layout_centerHorizontal="true" />
+        <co.vine.android.widget.TypefacesTextView android:textSize="@dimen/font_size_middle" android:textColor="@color/solid_white" android:gravity="center_horizontal" android:id="@id/no_drafts_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_drafts" android:layout_below="@id/no_drafts_overlay_face" vine:textWeight="4" vine:textStyle="0" />
+    </RelativeLayout>
+    <co.vine.android.widget.TypefacesTextView android:textColor="@color/draft_number_text" android:id="@id/no_draft_overlay_draft_button" android:background="@drawable/ic_drafts_pressed" android:visibility="gone" android:layout_width="@dimen/record_options_button_size" android:layout_height="@dimen/record_options_button_size" />
+</co.vine.android.dragsort.DragSortWidget>

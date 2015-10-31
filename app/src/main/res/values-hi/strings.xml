@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="choose_photo">मौजूदा चुनें</string>
+    <string name="common_google_play_services_enable_button">Google Play सेवाएं सक्षम करें</string>
+    <string name="common_google_play_services_enable_text">जब तक आप Google Play सेवाएं सक्षम नहीं करते, तब तक यह एप्लिकेशन कार्य नहीं करेगा.</string>
+    <string name="common_google_play_services_enable_title">Google Play सेवाएं सक्षम करें</string>
+    <string name="common_google_play_services_install_button">Google Play सेवाएं पाएं</string>
+    <string name="common_google_play_services_install_text_phone">यह एप्लिकेशन Google Play सेवाओं के बिना नहीं चलेगा, जो आपके फ़ोन में नहीं हैं.</string>
+    <string name="common_google_play_services_install_text_tablet">यह एप्लिकेशन Google Play सेवाओं के बिना नहीं चलेगा, जो आपके टेबलेट में नहीं हैं.</string>
+    <string name="common_google_play_services_install_title">Google Play सेवाएं पाएं</string>
+    <string name="common_google_play_services_unknown_issue">Google Play सेवाओं के साथ अज्ञात समस्या.</string>
+    <string name="common_google_play_services_unsupported_text">Google Play सेवाएं, जिन पर आपके कुछ एप्लिकेशन निर्भर करते हैं, आपके उपकरण द्वारा समर्थित नहीं हैं. कृपया सहायता के लिए निर्माता से संपर्क करें.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play सेवाएं</string>
+    <string name="common_google_play_services_update_button">अपडेट करें</string>
+    <string name="common_google_play_services_update_text">जब तक आप Google Play सेवाओं को अपडेट नहीं करते, तब तक यह एप्लिकेशन नहीं चलेगा.</string>
+    <string name="common_google_play_services_update_title">Google Play सेवाएं अपडेट करें</string>
+    <string name="common_signin_button_text">साइन इन करें</string>
+    <string name="common_signin_button_text_long">Google से साइन इन करें</string>
+    <string name="cropping_image">चित्र काटी जा रही है</string>
+    <string name="dialog_sending">भेजा जा रहा है</string>
+    <string name="error_xauth">ट्विटर के माध्यम से साइन इन करने का प्रयास करते समय कोई त्रुटि हुई.</string>
+    <string name="explore_empty_generic">एक्स्प्लोर लोड करने के दौरान त्रुटि हुई हैं. कृपया बाद में पुनः प्रयास करें.</string>
+    <string name="loading_image">छवि लोड हो रही है</string>
+    <string name="logging_out">साइन आउट हो रहा है</string>
+    <string name="login_password_hint">कम से कम 8 वर्ण</string>
+    <string name="login_sign_in">साइन इन करें</string>
+    <string name="login_sign_up">साइन अप करें</string>
+    <string name="login_username_hint">example@abc.com</string>
+    <string name="login_validating">सत्यापित किया जा रहा है</string>
+    <string name="logout">लॉगआउट</string>
+    <string name="number_format_million_grouping">6</string>
+    <string name="number_format_millions">%1$sM</string>
+    <string name="number_format_thousand_grouping">3</string>
+    <string name="number_format_thousands">%1$sk</string>
+    <string name="profile_title">प्रोफ़ाइल</string>
+    <string name="remove_photo">फोटो हटाएँ</string>
+    <string name="settings_edition">क्षेत्र</string>
+    <string name="signing_up">साइन अप हो रहा है</string>
+    <string name="start_signup_email">\"ईमेल\" के साथ साइन अप करें</string>
+    <string name="start_signup_twitter">\"ट्विटर\" के साथ साइन इन करें</string>
+</resources>

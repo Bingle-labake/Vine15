@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/photo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="35.0dip">
+        <ImageView android:id="@id/sign_up_add_photo" android:layout_width="@dimen/user_image_settings" android:layout_height="@dimen/user_image_settings" android:src="@drawable/btn_avatar" />
+    </LinearLayout>
+    <EditText android:textStyle="bold" android:id="@id/sign_up_username" android:hint="@string/signup_name_hint" android:layout_below="@id/photo" android:inputType="textCapWords|textNoSuggestions" style="@style/EditText.SignUp" />
+    <RelativeLayout android:id="@id/phone" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/sign_up_username">
+        <EditText android:id="@id/signup_phone" android:hint="@string/signup_phone_hint" android:singleLine="true" android:layout_below="@id/password" android:inputType="phone" android:imeOptions="actionDone" style="@style/EditText.SignIn" />
+        <co.vine.android.widget.TypefacesTextView android:id="@id/label_signup_phone" android:layout_width="wrap_content" android:text="@string/signup_phone" android:layout_alignBottom="@id/signup_phone" style="@style/SignInLabel" />
+    </RelativeLayout>
+</RelativeLayout>

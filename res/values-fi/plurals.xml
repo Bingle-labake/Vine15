@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="profile_followers">
+        <item quantity="other">\"%1$s\" SEURAAJAA</item>
+        <item quantity="one">\"%1$s\" SEURAAJA</item>
+    </plurals>
+    <plurals name="profile_following">
+        <item quantity="other">\"%1$s\" SEURATTUA</item>
+        <item quantity="one">\"%1$s\" SEURATTU</item>
+    </plurals>
+    <plurals name="profile_likes">
+        <item quantity="other">\"%1$s\" TYKKÄYSTÄ</item>
+        <item quantity="one">\"%1$s\" TYKKÄYS</item>
+    </plurals>
+    <plurals name="profile_posts">
+        <item quantity="other">\"%1$s\" MERKINTÄÄ</item>
+        <item quantity="one">\"%1$s\" MERKINTÄ</item>
+    </plurals>
+    <plurals name="revine_count">
+        <item quantity="other">%1$s uudelleenvineä</item>
+        <item quantity="one">%1$s uudelleenvine</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="other">%d pv</item>
+        <item quantity="one">1 pv</item>
+    </plurals>
+    <plurals name="time_days_verbose">
+        <item quantity="other">%d päivää</item>
+        <item quantity="one">1 päivä</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">1 h</item>
+    </plurals>
+    <plurals name="time_hours_verbose">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">1 tunti</item>
+    </plurals>
+    <plurals name="time_mins">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="time_mins_verbose">
+        <item quantity="other">%d minuuttia</item>
+        <item quantity="one">1 minuutti</item>
+    </plurals>
+    <plurals name="time_secs">
+        <item quantity="other">%d s</item>
+        <item quantity="one">1 s</item>
+    </plurals>
+    <plurals name="time_secs_verbose">
+        <item quantity="other">%d sekuntia</item>
+        <item quantity="one">1 sekunti</item>
+    </plurals>
+    <plurals name="timeline_compact_comments">
+        <item quantity="other">%1$s kommenttia</item>
+        <item quantity="one">%1$s kommentti</item>
+    </plurals>
+    <plurals name="timeline_compact_likes">
+        <item quantity="other">%1$s tykkäystä</item>
+        <item quantity="one">%1$s tykkäys</item>
+    </plurals>
+    <plurals name="timeline_likes">
+        <item quantity="other">\"%1$s henkilöä\" tykkää tästä</item>
+        <item quantity="one">\"%1$s\" tykkää tästä</item>
+    </plurals>
+</resources>

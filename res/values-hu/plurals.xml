@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="profile_followers">
+        <item quantity="other">\"%1$s\" KÖVETŐ</item>
+        <item quantity="one">\"%1$s\" KÖVETŐ</item>
+    </plurals>
+    <plurals name="profile_likes">
+        <item quantity="other">\"%1$s\" TETSZÉSNYILVÁNÍTÁS</item>
+        <item quantity="one">\"%1$s\" TETSZÉSNYILVÁNÍTÁS</item>
+    </plurals>
+    <plurals name="profile_posts">
+        <item quantity="other">\"%1$s\" BEJEGYZÉS</item>
+        <item quantity="one">\"%1$s\" BEJEGYZÉS</item>
+    </plurals>
+    <plurals name="revine_count">
+        <item quantity="other">%1$s revine</item>
+        <item quantity="one">%1$s revine</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="other">%d nap</item>
+        <item quantity="one">1 nap</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">1 óra</item>
+    </plurals>
+    <plurals name="time_mins">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">1 perc</item>
+    </plurals>
+    <plurals name="time_secs">
+        <item quantity="other">%d mp</item>
+        <item quantity="one">1mp</item>
+    </plurals>
+    <plurals name="timeline_compact_comments">
+        <item quantity="other">%1$s megjegyzés</item>
+        <item quantity="one">%1$s megjegyzés</item>
+    </plurals>
+    <plurals name="timeline_compact_likes">
+        <item quantity="other">%1$s tetszésnyilvánítás</item>
+        <item quantity="one">%1$s tetszésnyilvánítás</item>
+    </plurals>
+</resources>

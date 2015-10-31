@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="profile_followers">
+        <item quantity="other">\"%1$s\" ЧИТАТЕЛИ</item>
+        <item quantity="one">\"%1$s\" ЧИТАТЕЛЬ</item>
+    </plurals>
+    <plurals name="profile_following">
+        <item quantity="other">\"%1$s\" ЧИТАЕМЫЕ</item>
+        <item quantity="one">\"%1$s\" ЧИТАЕТ</item>
+    </plurals>
+    <plurals name="profile_likes">
+        <item quantity="other">НРАВИТСЯ: \"%1$s\"</item>
+        <item quantity="one">НРАВИТСЯ: \"%1$s\"</item>
+    </plurals>
+    <plurals name="profile_posts">
+        <item quantity="other">ЗАПИСИ: \"%1$s\"</item>
+        <item quantity="one">ЗАПИСИ: \"%1$s\"</item>
+    </plurals>
+    <plurals name="revine_count">
+        <item quantity="other">Ревайны %1$s</item>
+        <item quantity="one">Ревайны %1$s</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="other">%d дн</item>
+        <item quantity="one">1 день</item>
+    </plurals>
+    <plurals name="time_days_verbose">
+        <item quantity="other">%d дн</item>
+        <item quantity="one">1 день</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">%d ч</item>
+        <item quantity="one">1 ч</item>
+    </plurals>
+    <plurals name="time_hours_verbose">
+        <item quantity="other">%d ч</item>
+        <item quantity="one">1 ч</item>
+    </plurals>
+    <plurals name="time_mins">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">1 мин</item>
+    </plurals>
+    <plurals name="time_mins_verbose">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">1 мин</item>
+    </plurals>
+    <plurals name="time_secs">
+        <item quantity="other">%d сек</item>
+        <item quantity="one">1 сек</item>
+    </plurals>
+    <plurals name="time_secs_verbose">
+        <item quantity="other">%d сек</item>
+        <item quantity="one">1 секунда</item>
+    </plurals>
+    <plurals name="timeline_compact_comments">
+        <item quantity="other">Комментарии %1$s</item>
+        <item quantity="one">Комментарий %1$s</item>
+    </plurals>
+    <plurals name="timeline_compact_likes">
+        <item quantity="other">Понравилось %1$s</item>
+        <item quantity="one">Нравится %1$s</item>
+    </plurals>
+    <plurals name="timeline_likes">
+        <item quantity="other">\"%1$s пользователям\" нравится</item>
+        <item quantity="one">\"%1$s\" пользователям нравится</item>
+    </plurals>
+</resources>

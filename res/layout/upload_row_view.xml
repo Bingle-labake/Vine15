@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:vine="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_selectable_item" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/thumbnail" android:layout_width="@dimen/user_image_size" android:layout_height="@dimen/user_image_size" android:layout_margin="11.0dip" android:scaleType="centerInside" android:minHeight="@dimen/user_image_size" />
+        <co.vine.android.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="@color/solid_white" android:gravity="left|center" android:layout_gravity="center" android:id="@id/status_message" android:background="@drawable/bg_uploads_progress" android:paddingLeft="@dimen/spacing_small" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginRight="11.0dip" android:textAllCaps="true" vine:textWeight="3" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="right|center" android:id="@id/retry" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="22.0dip" android:src="@drawable/ic_refresh" />
+    <ProgressBar android:layout_gravity="right|center" android:id="@id/loading" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="22.0dip" style="?android:attr/progressBarStyleLarge" />
+    <View android:layout_gravity="bottom" android:background="@color/uploads_list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

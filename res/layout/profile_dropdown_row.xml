@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <co.vine.android.widget.TypefacesTextView android:layout_gravity="left|center" android:id="@id/text" android:background="@drawable/bg_generic" android:paddingLeft="@dimen/spacing_small" android:layout_width="fill_parent" android:layout_height="48.0dip" style="@style/ListRow" />
+    <View android:layout_gravity="top" android:background="@color/dark_list_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

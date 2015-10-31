@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="profile_followers">
+        <item quantity="other">\"%1$s\" VOLGERS</item>
+        <item quantity="one">\"%1$s\" VOLGER</item>
+    </plurals>
+    <plurals name="profile_following">
+        <item quantity="other">\"%1$s\" VOLGEND</item>
+        <item quantity="one">\"%1$s\" VOLGEND</item>
+    </plurals>
+    <plurals name="profile_likes">
+        <item quantity="other">\"%1$s\" VIND-IK-LEUKS</item>
+        <item quantity="one">\"%1$s\" VIND-IK-LEUK</item>
+    </plurals>
+    <plurals name="profile_posts">
+        <item quantity="other">\"%1$s\" VINES</item>
+        <item quantity="one">\"%1$s\" VINE</item>
+    </plurals>
+    <plurals name="revine_count">
+        <item quantity="other">%1$s revines</item>
+        <item quantity="one">%1$s revine</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="other">%dd</item>
+        <item quantity="one">1d</item>
+    </plurals>
+    <plurals name="time_days_verbose">
+        <item quantity="other">%d dagen</item>
+        <item quantity="one">1 dag</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">%du</item>
+        <item quantity="one">1u</item>
+    </plurals>
+    <plurals name="time_hours_verbose">
+        <item quantity="other">%d uur</item>
+        <item quantity="one">1 uur</item>
+    </plurals>
+    <plurals name="time_mins">
+        <item quantity="other">%dm</item>
+        <item quantity="one">1m</item>
+    </plurals>
+    <plurals name="time_mins_verbose">
+        <item quantity="other">%d minuten</item>
+        <item quantity="one">1 minuut</item>
+    </plurals>
+    <plurals name="time_secs">
+        <item quantity="other">%ds</item>
+        <item quantity="one">1s</item>
+    </plurals>
+    <plurals name="time_secs_verbose">
+        <item quantity="other">%d seconden</item>
+        <item quantity="one">1 seconde</item>
+    </plurals>
+    <plurals name="timeline_compact_comments">
+        <item quantity="other">%1$s reacties</item>
+        <item quantity="one">%1$s reactie</item>
+    </plurals>
+    <plurals name="timeline_compact_likes">
+        <item quantity="other">%1$s vinden dit leuk</item>
+        <item quantity="one">%1$s vindt dit leuk</item>
+    </plurals>
+    <plurals name="timeline_likes">
+        <item quantity="other">\"%1$s personen\" vinden dit leuk</item>
+        <item quantity="one">\"%1$s\" vindt dit leuk</item>
+    </plurals>
+</resources>

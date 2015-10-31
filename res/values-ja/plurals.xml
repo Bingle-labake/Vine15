@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="profile_followers">
+        <item quantity="other">\"%1$s\" 人のフォロワー</item>
+        <item quantity="one">\"%1$s\" 人のフォロワー</item>
+    </plurals>
+    <plurals name="profile_following">
+        <item quantity="other">\"%1$s\"さんがフォロー中</item>
+        <item quantity="one">\"%1$s\"さんがフォロー中</item>
+    </plurals>
+    <plurals name="profile_likes">
+        <item quantity="other">\"%1$s\" 件のいいね</item>
+        <item quantity="one">\"%1$s\" 件のいいね</item>
+    </plurals>
+    <plurals name="profile_posts">
+        <item quantity="other">\"%1$s\" 件の投稿</item>
+        <item quantity="one">\"%1$s\" 件の投稿</item>
+    </plurals>
+    <plurals name="revine_count">
+        <item quantity="other">%1$s件のReVine</item>
+        <item quantity="one">%1$s件のReVine</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="other">%d日</item>
+        <item quantity="one">1日</item>
+    </plurals>
+    <plurals name="time_days_verbose">
+        <item quantity="other">%d日</item>
+        <item quantity="one">1日</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">1時間</item>
+    </plurals>
+    <plurals name="time_hours_verbose">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">1時間</item>
+    </plurals>
+    <plurals name="time_mins">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="time_mins_verbose">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="time_secs">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">1秒</item>
+    </plurals>
+    <plurals name="time_secs_verbose">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">1秒</item>
+    </plurals>
+    <plurals name="timeline_compact_comments">
+        <item quantity="other">%1$s件のコメント</item>
+        <item quantity="one">%1$s件のコメント</item>
+    </plurals>
+    <plurals name="timeline_compact_likes">
+        <item quantity="other">%1$s件のいいね</item>
+        <item quantity="one">%1$s件のいいね</item>
+    </plurals>
+    <plurals name="timeline_likes">
+        <item quantity="other">\"%1$s\"さんがいいねしました</item>
+        <item quantity="one">\"%1$s\" さんがお気に入りに登録しました</item>
+    </plurals>
+</resources>

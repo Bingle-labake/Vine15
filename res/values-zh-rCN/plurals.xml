@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="profile_followers">
+        <item quantity="other">\"%1$s\" 关注者</item>
+        <item quantity="one">\"%1$s\" 关注者</item>
+    </plurals>
+    <plurals name="profile_following">
+        <item quantity="other">%1$s 正在关注</item>
+        <item quantity="one">\"%1$s\" 正在关注</item>
+    </plurals>
+    <plurals name="profile_likes">
+        <item quantity="other">\"%1$s\" 喜欢</item>
+        <item quantity="one">\"%1$s\" 喜欢</item>
+    </plurals>
+    <plurals name="profile_posts">
+        <item quantity="other">\"%1$s\" 视频</item>
+        <item quantity="one">\"%1$s\" 视频</item>
+    </plurals>
+    <plurals name="revine_count">
+        <item quantity="other">%1$s 转发</item>
+        <item quantity="one">%1$s 转发</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="other">%d天</item>
+        <item quantity="one">1天</item>
+    </plurals>
+    <plurals name="time_days_verbose">
+        <item quantity="other">%d天</item>
+        <item quantity="one">1天</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">%d小时</item>
+        <item quantity="one">1小时</item>
+    </plurals>
+    <plurals name="time_hours_verbose">
+        <item quantity="other">%d小时</item>
+        <item quantity="one">1小时</item>
+    </plurals>
+    <plurals name="time_mins">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="time_mins_verbose">
+        <item quantity="other">%d分钟</item>
+        <item quantity="one">1分钟</item>
+    </plurals>
+    <plurals name="time_secs">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">1秒</item>
+    </plurals>
+    <plurals name="time_secs_verbose">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">1秒</item>
+    </plurals>
+    <plurals name="timeline_compact_comments">
+        <item quantity="other">%1$s 评论</item>
+        <item quantity="one">%1$s 评论</item>
+    </plurals>
+    <plurals name="timeline_compact_likes">
+        <item quantity="other">%1$s 喜欢</item>
+        <item quantity="one">%1$s 喜欢</item>
+    </plurals>
+    <plurals name="timeline_likes">
+        <item quantity="other">\"%1$s 人\"喜欢</item>
+        <item quantity="one">%1$s 喜欢</item>
+    </plurals>
+</resources>

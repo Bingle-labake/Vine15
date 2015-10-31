@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="profile_followers">
+        <item quantity="other">\"%1$s\" OBSERWUJĄCH</item>
+        <item quantity="one">\"%1$s\" OBSERWUJĄCY</item>
+    </plurals>
+    <plurals name="profile_following">
+        <item quantity="other">\"%1$s\" OBSERWUJĄCYCH</item>
+        <item quantity="one">\"%1$s\" OBSERWUJĄCY</item>
+    </plurals>
+    <plurals name="profile_likes">
+        <item quantity="other">\"%1$s\" POLUBIEŃ</item>
+        <item quantity="one">\"%1$s\" POLUBIENIE</item>
+    </plurals>
+    <plurals name="profile_posts">
+        <item quantity="other">\"%1$s\" WPISY</item>
+        <item quantity="one">\"%1$s\" WPIS</item>
+    </plurals>
+    <plurals name="revine_count">
+        <item quantity="other">%1$s podanych dalej</item>
+        <item quantity="one">%1$s podany dalej</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="other">%d dni</item>
+        <item quantity="one">1 dzień</item>
+    </plurals>
+    <plurals name="time_days_verbose">
+        <item quantity="other">%d dni</item>
+        <item quantity="one">1 dzień</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">%d godz.</item>
+        <item quantity="one">1 godz.</item>
+    </plurals>
+    <plurals name="time_hours_verbose">
+        <item quantity="other">%d godzin</item>
+        <item quantity="one">1 godzina</item>
+    </plurals>
+    <plurals name="time_mins">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="time_mins_verbose">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">1 minuta</item>
+    </plurals>
+    <plurals name="time_secs">
+        <item quantity="other">%d sek.</item>
+        <item quantity="one">1 sek.</item>
+    </plurals>
+    <plurals name="time_secs_verbose">
+        <item quantity="other">%d sekund</item>
+        <item quantity="one">1 sekunda</item>
+    </plurals>
+    <plurals name="timeline_compact_comments">
+        <item quantity="other">%1$s komentarzy</item>
+        <item quantity="one">%1$s komentarz</item>
+    </plurals>
+    <plurals name="timeline_compact_likes">
+        <item quantity="other">%1$s polubień</item>
+        <item quantity="one">%1$s polubienie</item>
+    </plurals>
+    <plurals name="timeline_likes">
+        <item quantity="other">\"%1$s osób\" lubi to</item>
+        <item quantity="one">\"%1$s\" lubi to</item>
+    </plurals>
+</resources>
